@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Catch Science Uploader</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 3rem 1.5rem; line-height: 1.6; color: #1a1a1a; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .subtitle { color: #555; margin-bottom: 2rem; }
+    .card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .card h2 { margin-top: 0; font-size: 1.25rem; }
+    a { color: #065fd4; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e0e0e0; color: #666; font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <h1>The Catch Science Uploader</h1>
+  <p class="subtitle">Internal tool for uploading shorts to <a href="https://www.youtube.com/@thecatchscience">The Catch Science</a> YouTube channel.</p>
+
+  <div class="card">
+    <h2>Purpose</h2>
+    <p>This application uses the YouTube Data API v3 to upload fact-checked science/health Shorts created by the <strong>The Catch Science</strong> production pipeline. It is not a public-facing service.</p>
+  </div>
+
+  <div class="card">
+    <h2>Data Access</h2>
+    <p>The app requests the <code>youtube.upload</code> scope to:</p>
+    <ul>
+      <li>Upload video files to The Catch Science channel</li>
+      <li>Set titles, descriptions, thumbnails, and visibility</li>
+    </ul>
+    <p>No user data is collected, stored, or shared. Authentication tokens are stored locally on the upload machine only.</p>
+  </div>
+
+  <div class="card">
+    <h2>Links</h2>
+    <ul>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="https://www.youtube.com/@thecatchscience">The Catch Science Channel</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2026 The Catch Science. This is an internal tool, not a public product.
+  </footer>
+</body>
+</html>
